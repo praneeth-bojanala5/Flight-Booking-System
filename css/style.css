@@ -1,0 +1,455 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+    height: 100%;
+}
+
+/*�st bar modellemesi */
+nav{
+    z-index: 2;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+    
+
+}
+/*�st bar�n yaz� tipi*/
+nav a{
+
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    padding:12px 12px;
+    color: #FFF;
+    
+
+}
+/*mouse �st�ne gelince arka plan*/
+nav a:hover{ 
+  border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+    transition-property: all;           
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out; 
+    text-decoration: none;
+
+}
+
+.fa-user{   /* Login ekranında ki user iconu*/
+  font-size: 25px;
+  transform: translate(-14rem, 3rem);  
+}
+
+.fa-unlock{  /* Login ekranında ki password iconu*/
+  font-size: 25px;
+  transform: translate(-14rem, 4rem);
+}
+
+/*arka plan hizalamas�*/
+.gorsel{
+    height: 100%;
+    width: 100%;
+    background-color:lightblue;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*divde gor1 */
+body{  
+   
+    background-image: url("../img/aboutarka.jpg");
+    background-size:100% 100%;
+    z-index: -20;
+      
+    
+  
+}
+
+#gor2{  
+    background-image: url("../img/aboutarka.jpg");
+    background-size:100% 100%;
+    z-index: -20;
+    
+}
+
+.anaSayfa{
+  
+    float: left;
+    
+}
+/*anasayfadaki yaz�n�n hizalamas�*/
+.anaYazi{
+    width: 68%;
+    height: 68%;
+    z-index: 1;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 350px;
+    
+
+   
+}
+.anaYazi p{
+    color:blueviolet;
+    font-size: 15px;
+    margin-top: 100x;
+    margin-bottom: 20px;
+   }
+.anaYazi h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 90px;
+    color: orange;
+    margin-bottom: 50px;
+}
+.anaYazi button{
+    
+    color: #FFF;
+    padding: 10px 10px;
+    background-color: orange;
+    font-size: 17px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive; font-family: 'Indie Flower', cursive;
+
+}
+
+.hayallerineUc:hover{
+  background-color:rgb(30,30,30);
+  border-color: rgb(30,30,30);
+  transition-property: all;           
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out; 
+  font-size:20px ;
+
+}
+
+.anaYazi button:hover{
+    background-color: #FFF;
+    color: orange;
+    cursor: pointer;
+}
+
+.aboutdiv p{
+    
+    width: 100%;
+    
+    
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+.contactdiv p{
+    
+    margin-left: 100px;
+}
+.signindiv p{
+    
+    margin-left: 100px;
+}
+.registerdiv p{
+    
+    margin-left: 100px;
+}
+.flightsdiv p{
+    
+    margin-left: 100px;
+}
+ footer{
+     width: 100%;
+     height: 18%;
+     margin-top:100%;
+     position: fixed;
+     bottom: 0px;
+     left:0px;     
+  
+} 
+
+ #footerContainer{
+    width: 100%;
+      
+  
+}
+.footerBox1 .fab{
+    font-size: 25px;
+}
+.footerBox1{
+    color: #FFF;
+    float: left;
+    padding-left: 25%;
+    padding-top: 40px;
+    text-align: center;
+    clear: left;
+
+}
+.footerBox2{
+    color: #FFF;
+    float: left;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 10%;
+
+    
+}
+
+.footer1{
+    float:left;
+    clear:left;
+}
+
+.footer2{
+    float:left;
+}
+
+
+.bg-red{background: #e95b4c;}
+.bg-green{background: #2ecc71;}
+.bg-blue{background: #3498db;}
+.bg-orange{background: #e67e22;}
+.bg-grey{background: #95a5a6;}
+.bg-purple{background: #ee4c7c;}
+.bg-white{background: white;}
+.bg-grey-eee{background: #eee;}
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-10{font-size: 10px;}
+.text-15{font-size: 15px;}
+.text-18{font-size: 18px;}
+.text-20{font-size: 20px;}
+.text-25{font-size: 25px;}
+.text-30{font-size: 30px;}
+.text-35{font-size: 35px;}
+.text-40{font-size: 40px;}
+.text-45{font-size: 45px;}
+.text-50{font-size: 50px;}
+.text-bold{font-weight: bold;}
+.text-red{color: #e95b4c;}
+.text-green{color: #2ecc71;}
+.text-blue{color: #3498db;}
+.text-orange{color: #e67e12;}
+.text-grey{color:#95a5a6;}
+.text-black{color: #000000;}
+.text-white{color: #ffffff;}
+.text-border{text-shadow:#000 1px 1px 1px;  }
+.text-upper{text-transform: uppercase;}
+.text-lower{text-transform: lowercase;}
+.text-line-through{text-decoration: line-through;}
+.text-bs-primary{color: #337ab7;}
+
+i.icon-tiny   {font-size: 1em;}
+i.icon-small  {font-size: 2em;}
+i.icon-medium {font-size: 4em;}
+i.icon-large  {font-size: 6em;}
+i.icon-extra-large {font-size: 8em;}
+
+.container-100{width: 100%;}
+.container-80{width: 80%;margin: 0px auto;}
+.container-60{width:60%;margin: 0px auto;}
+.center{margin: 0px auto;}
+
+.float-left{float: left;}
+.float-right{float: right;}
+.float-clear{clear:both;}
+
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+.padding-10{padding: 10px;}
+.margin-5{margin:5px;}
+.margin-10{margin: 10px;}
+.margin-15{margin: 15px;}
+.margin-20{margin: 20px;}
+
+.margin-left-150{margin-left: 150px;}
+.margin-left-100de50{margin-left:50%;}
+
+
+.box-sizing{box-sizing:border-box;}
+.img-100{width: 100%;}
+.a{
+  text-decoration: none;
+}
+.a:hover{
+  text-decoration: none !important;
+}
+
+.height-50{height: 50%;}
+.height-80{height: 80%;}
+.height-100{height: 100%;}
+.height-100px{height: 100px;}
+.height-150px{height: 150px;}
+.height-200px{height: 200px;}
+.height-250px{height: 250px;}
+.height-300px{height: 300px;}
+.height-350px{height: 350px;}
+.height-400px{height: 400px;}
+.width-50{width: 50%;}
+.width-80{width: 80%;}
+.width-100{width:100%;}
+.width-100px{width: 100px;}
+.width-150px{width: 150px;}
+.width-200px{width: 200px;}
+.widht-250px{width: 250px;}
+.widht-300px{width: 300px;}
+.width-350px{width: 350px;}
+.width-400px{width: 400px;}
+
+.border-eee{border:1px solid #eee;}
+.border-ccc{border:1px solid #ccc;}
+.border-000{border:1px solid #000;}
+
+.center{margin:0px auto;}
+
+#ucak #resimucak{
+    position:absolute;
+    top: 65%;
+    left:5%;
+    width:400px;
+    opacity: .8;
+}
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{  padding-top: 20px;
+    padding-bottom: 20px;}
+  body{
+    background-color: #111845;
+  }
+  
+  .background-img{
+   height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% auto;
+    padding:20px;
+       border-radius: 4px;
+   
+    position: relative;
+  }
+  
+  .content h2{ font-size:19px;}
+  
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    border: 2px solid #2a3cad;
+    color: white;
+    padding: 20px;
+  }
+  
+  .box:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:rgba(255, 102, 0, 0.342);
+    transition:0.5s;
+    pointer-events: none;
+  }
+  
+  .box:hover:before{
+    left:-50%;
+    transform: skewX(-5deg);
+  }
+  
+  
+  .box .content{
+    position:absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    border:1px solid #f0a591;
+    padding:20px;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    
+  }
+  
+  .box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+  }
+  
+  .box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .box span:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
