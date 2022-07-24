@@ -11,7 +11,7 @@ require_once("parca/navbar.php");
     <div class="sag" style="background-color: white; width:50%; float:left; margin-left:1%; height:600px; overflow:auto; opacity:0.9;margin-right:50px;border-radius:14px;margin-top:50px;">
     <h3 style="text-align: center"> PRANEETH AIRLINES</h3>
     <p style="padding-left:15px;padding-right:15px;text-align:justify;">
-    &nbsp &nbsp   In this website we can register and can create an account. After that we need to login with our credentials and can book a flight which are available.
+    &nbsp &nbsp   Register and login to book available flight tickets
 
     </p>
     </div>
